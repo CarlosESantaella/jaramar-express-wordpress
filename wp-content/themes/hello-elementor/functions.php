@@ -135,6 +135,12 @@ if ( ! function_exists( 'hello_elementor_scripts_styles' ) ) {
 			HELLO_ELEMENTOR_VERSION,
 			true
 		);
+		wp_enqueue_style(
+			'main',
+			get_template_directory_uri().'/style.css',
+			array(),
+			HELLO_ELEMENTOR_VERSION
+		);
 	}
 }
 add_action( 'wp_enqueue_scripts', 'hello_elementor_scripts_styles' );

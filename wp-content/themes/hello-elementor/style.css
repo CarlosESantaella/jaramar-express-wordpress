@@ -618,13 +618,25 @@ li {
 .sticky-nav{
 	position: fixed;
 	width: 100%;
+  top: 0;
+  left: 0;
+  background:white;
+}
+.sticky-nav + .next-section-nav{
 }
 *{
-	transition: all .4s ease 0s;
+	/* transition: all .4s ease 0s; */
 }
 .eael-simple-menu-container .eael-simple-menu.eael-simple-menu-horizontal li ul{
 	left: initial;
 	right: 0;
 	width: 244px;
+}
+body{
+  padding-bottom: 3000px;
+}
+
+main > .page-header{
+  display: none;
 }
 /* header */
