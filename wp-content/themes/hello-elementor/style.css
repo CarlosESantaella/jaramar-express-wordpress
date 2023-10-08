@@ -622,6 +622,12 @@ li {
   left: 0;
   background:white;
 }
+@media(min-width: 998px){
+
+  .elementor-25 .sticky-nav .elementor-element.elementor-element-bfd297c img{
+    width: 25%;
+  }
+}
 .sticky-nav + .next-section-nav{
 }
 *{
