@@ -612,3 +612,19 @@ li {
   vertical-align: baseline;
   background: transparent;
 }
+
+
+/* header */
+.sticky-nav{
+	position: fixed;
+	width: 100%;
+}
+*{
+	transition: all .4s ease 0s;
+}
+.eael-simple-menu-container .eael-simple-menu.eael-simple-menu-horizontal li ul{
+	left: initial;
+	right: 0;
+	width: 244px;
+}
+/* header */
