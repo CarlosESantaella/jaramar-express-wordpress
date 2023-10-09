@@ -614,6 +614,52 @@ li {
 }
 
 
+/* general */
+@font-face {
+  font-family: 'gotham'; /* Asigna un nombre a tu fuente */
+  src: url('./assets/fonts/GothamMedium.ttf') format('ttf'); /* Ruta al archivo de fuente */
+  font-weight: normal; /* Peso de la fuente (normal, negrita, etc.) */
+  font-style: normal; /* Estilo de la fuente (normal, cursiva, etc.) */
+}
+@font-face {
+  font-family: 'gotham'; /* Asigna un nombre a tu fuente */
+  src: url('./assets/fonts/GothamBold.ttf') format('ttf'); /* Ruta al archivo de fuente */
+  font-weight: 700; /* Peso de la fuente (normal, negrita, etc.) */
+  font-style: normal; /* Estilo de la fuente (normal, cursiva, etc.) */
+}
+@font-face {
+  font-family: 'gotham'; /* Asigna un nombre a tu fuente */
+  src: url('./assets/fonts/GothamLight.ttf') format('ttf'); /* Ruta al archivo de fuente */
+  font-weight: 200; /* Peso de la fuente (normal, negrita, etc.) */
+  font-style: normal; /* Estilo de la fuente (normal, cursiva, etc.) */
+}
+.gotham-m{
+  font-family: 'gotham', sans-serif;
+  font-weight: normal;
+}
+.gotham-b{
+  font-family: 'gotham', sans-serif;
+  font-weight: 700;
+}
+.gotham-l{
+  font-family: 'gotham', sans-serif;
+  font-weight: 200;
+}
+body{
+  font-family: 'gotham', sans-serif;
+}
+.position-relative{
+  position: relative !important;
+}
+.position-static{
+  position: static !important;
+}
+.transform-translate-center{
+  transform: translate(-50%, -50%) !important;
+}
+
+/* general */
+
 /* header */
 .sticky-nav{
 	position: fixed;
@@ -636,13 +682,40 @@ li {
 .eael-simple-menu-container .eael-simple-menu.eael-simple-menu-horizontal li ul{
 	left: initial;
 	right: 0;
-	width: 244px;
+	width: 267px;
 }
 body{
-  padding-bottom: 3000px;
 }
 
 main > .page-header{
   display: none;
 }
+.hfe-menu-item{
+  cursor: pointer;
+}
 /* header */
+
+/* banner */
+.max-min-height-banner{
+  max-height: calc(100vh - 200px);
+  min-height: calc(100vh - 200px);
+}
+.elementor-widget-video .elementor-wrapper video{
+  max-height: calc(100vh - 200px);
+  min-height: calc(100vh - 200px);
+
+}
+.filter-black{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, .5);
+  z-index: 10;
+}
+.max-width-text-banner{
+  /* max-width: 800px !important; */
+}
+.eael-fancy-text-strings{
+  display: block !important;
+}
+/* banner */
