@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
       $('#navbar').removeClass('sticky-nav');
       $('.next-section-nav').css('padding-bottom', 'initial');
 
-
+ 
     }
   })
 });
