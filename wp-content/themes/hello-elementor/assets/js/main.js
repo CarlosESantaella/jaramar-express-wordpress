@@ -8,9 +8,9 @@ jQuery(document).ready(function($){
   })
 
   setTimeout(() => {
-    navbar_height = $('#navbar').height();
-  }, 500);
+  }, 1000);
   $(window).on('scroll', function(){
+    navbar_height = $('#navbar').height();
     console.log($(window).scrollTop()+'/'+navbar );
     if($(window).scrollTop() >= navbar){
       $('#navbar').addClass('sticky-nav');
