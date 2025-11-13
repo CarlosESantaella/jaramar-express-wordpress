@@ -1,0 +1,9 @@
+# Apache 2.4+
+<IfModule authz_core_module>
+    Require all granted
+</IfModule>
+
+# Apache 2.2
+<IfModule !authz_core_module>
+    Allow from all
+</IfModule>

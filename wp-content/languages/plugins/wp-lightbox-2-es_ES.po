@@ -1,0 +1,140 @@
+# Translation of Plugins - WP Lightbox 2 - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WP Lightbox 2 - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-14 21:54:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WP Lightbox 2 - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://syedbalkhi.com"
+msgstr "https://syedbalkhi.com"
+
+#. Author of the plugin/theme
+msgid "Syed Balkhi"
+msgstr "Syed Balkhi"
+
+#. Description of the plugin/theme
+msgid "WP Lightbox 2 is awesome tool for adding responsive lightbox (overlay) effect for images and also create lightbox for photo albums/galleries on your WordPress blog. WordPress Lightbox is one of the most useful plugins for your website."
+msgstr "WP Lightbox 2 es una herramienta increíble para añadir un efecto de caja de luz adaptable (superposición) a las imágenes y también crear caja de luz para álbumes o galerías de fotos en tu blog WordPress. WordPress Lightbox es uno de los plugins más útiles para tu web."
+
+#. Plugin URI of the plugin/theme
+msgid "http://wpdevart.com/wordpress-lightbox-plugin"
+msgstr "https://wpdevart.com/wordpress-lightbox-plugin"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Lightbox 2"
+msgstr "WP Lightbox 2"
+
+#: wp-lightbox-2.php:268
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: wp-lightbox-2.php:266
+msgid "Browse images with your keyboard: Arrows or P(revious)/N(ext) and X/C/ESC for close."
+msgstr "Busca imágenes con tu teclado: usa las flechas o P (anterior), N (siguiente) y X, C o Esc para cerrar."
+
+#: wp-lightbox-2.php:262
+msgid "Help text (default: none) "
+msgstr "Texto de ayuda (por defecto: ninguno)"
+
+#: wp-lightbox-2.php:256
+msgid "Animation duration (in milliseconds) "
+msgstr "Duración de la animación (en milisegundos)"
+
+#: wp-lightbox-2.php:249
+msgid "Minimum margin to screen edge (default: 0)"
+msgstr "Margen mínimo del borde de la pantalla (por defecto: 0)"
+
+#: wp-lightbox-2.php:249
+msgid "Keep a distance between the image and the screen edges."
+msgstr "Mantén una distancia entre la imagen y los bordes de la pantalla."
+
+#: wp-lightbox-2.php:244
+msgid "Shrink large images to fit smaller screens"
+msgstr "Reduce las imágenes grandes para que quepan en pantallas más pequeñas"
+
+#: wp-lightbox-2.php:236
+msgid "Show image info on top"
+msgstr "Mostrar información de la imagen en la parte superior"
+
+#: wp-lightbox-2.php:222
+msgid "Target for download link:"
+msgstr "Destino del enlace de descarga:"
+
+#: wp-lightbox-2.php:219
+msgid ""
+"_blank: open the image in a new window or tabr\n"
+"_self: open the image in the same frame as it was clicked (default)r\n"
+"_parent: open the image in the parent framesetr\n"
+"_top: open the image in the full body of the window"
+msgstr ""
+"_blank: abre la imagen en una nueva ventana o pestaña\n"
+"_self: abre la imagen en el mismo marco en el que se hizo clic (por defecto)\n"
+"_parent: abre la imagen en el conjunto de marcos principal\n"
+"_top: abre la imagen en el cuerpo completo de la ventana"
+
+#: wp-lightbox-2.php:215
+msgid "Show download link"
+msgstr "Mostrar el enlace de descarga"
+
+#: wp-lightbox-2.php:208
+msgid "Enable lightbox in comments (disables <a href=\"http://codex.wordpress.org/Nofollow\">the nofollow attribute!</a>)"
+msgstr "Activar caja de luz en los comentarios (¡desactiva <a href=\"http://codex.wordpress.org/Nofollow\">el atributo «nofollow»!</a>)"
+
+#: wp-lightbox-2.php:208
+msgid "Note: this will disable the nofollow-attribute of comment links, that otherwise interfere with the lightbox."
+msgstr "Nota: esto desactivará el atributo «nofollow» de los enlaces de comentarios que, de lo contrario, interfieren con la caja de luz."
+
+#: wp-lightbox-2.php:201
+msgid "Auto-lightbox image links"
+msgstr "Caja de luz automática en enlaces de imágenes"
+
+#: wp-lightbox-2.php:201
+msgid "Let the plugin add necessary html to image links"
+msgstr "Dejar que el plugin añada el HTML necesario a los enlaces de las imágenes"
+
+#: wp-lightbox-2.php:186
+msgid "Cheatin&#8217; uh?"
+msgstr "¡Con que haciendo trampas! ¿eh? "
+
+#: wp-lightbox-2.php:135
+msgid "Download"
+msgstr "Descargas"
+
+#: wp-lightbox-2.php:134
+msgid " of "
+msgstr " de "
+
+#: wp-lightbox-2.php:133
+msgid "Image "
+msgstr "Imagen "
+
+#: wp-lightbox-2.php:131
+msgid "Next &raquo;"
+msgstr "Siguiente &raquo;"
+
+#: wp-lightbox-2.php:130
+msgid "&laquo; Previous"
+msgstr "&laquo; Anterior"
+
+#: wp-lightbox-2.php:52
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/install_database.php:74
+msgid "close image gallery"
+msgstr "cerrar galería de imágenes"
+
+#: includes/install_database.php:68
+msgid "previous image"
+msgstr "imagen anterior"
+
+#: includes/install_database.php:67
+msgid "next image"
+msgstr "imagen siguiente"
