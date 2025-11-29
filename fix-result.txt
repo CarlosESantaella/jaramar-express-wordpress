@@ -1,0 +1,34 @@
+<h2>Buscando y reemplazando URLs...</h2>
+<p>De: <strong>https://jaramar-express-wordpress.test</strong></p>
+<p>A: <strong>http://jaramar.test</strong></p>
+<hr>
+<h3>Procesando tabla: wp_commentmeta</h3>
+<p>No se encontraron coincidencias.</p>
+<h3>Procesando tabla: wp_comments</h3>
+<p>No se encontraron coincidencias.</p>
+<h3>Procesando tabla: wp_e_events</h3>
+<p>No se encontraron coincidencias.</p>
+<h3>Procesando tabla: wp_links</h3>
+<p>No se encontraron coincidencias.</p>
+<h3>Procesando tabla: wp_options</h3>
+<p>No se encontraron coincidencias.</p>
+<h3>Procesando tabla: wp_postmeta</h3>
+<p>No se encontraron coincidencias.</p>
+<h3>Procesando tabla: wp_posts</h3>
+<p style='color: green;'>✓ Actualizadas 2196 filas</p>
+<h3>Procesando tabla: wp_term_relationships</h3>
+<p>No hay columnas de texto para procesar.</p>
+<h3>Procesando tabla: wp_term_taxonomy</h3>
+<p>No se encontraron coincidencias.</p>
+<h3>Procesando tabla: wp_termmeta</h3>
+<p>No se encontraron coincidencias.</p>
+<h3>Procesando tabla: wp_terms</h3>
+<p>No se encontraron coincidencias.</p>
+<h3>Procesando tabla: wp_usermeta</h3>
+<p>No se encontraron coincidencias.</p>
+<h3>Procesando tabla: wp_users</h3>
+<p style='color: green;'>✓ Actualizadas 1 filas</p>
+<hr>
+<h2 style='color: green;'>✓ Proceso completado!</h2>
+<p><strong>Total de actualizaciones: 2197</strong></p>
+<p style='color: red;'><strong>IMPORTANTE:</strong> Elimina este archivo (fix-urls.php) después de usarlo.</p>

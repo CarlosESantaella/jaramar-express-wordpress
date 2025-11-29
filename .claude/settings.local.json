@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(mysql:*)",
+      "Bash(php fix-urls.php:*)",
+      "Bash(if [ -f \"fix-urls.php\" ])",
+      "Bash(then echo \"exists\")",
+      "Bash(else echo \"not exists\")",
+      "Bash(fi)",
+      "Bash(if [ -d \"wp-content/cache\" ])",
+      "Bash(then rm -rf wp-content/cache/*)",
+      "Bash(else echo \"No hay carpeta de cache\")",
+      "Bash(php clear-cache.php:*)",
+      "Bash(php wp-cli.phar plugin:*)",
+      "Bash(php wp-cli.phar elementor flush-css:*)",
+      "Bash(chmod:*)",
+      "Bash(php wp-cli.phar post list:*)",
+      "Bash(php:*)",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

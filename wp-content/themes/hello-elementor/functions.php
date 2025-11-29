@@ -261,3 +261,96 @@ function add_fonts_modify_controls($controls_registry)
 	$controls_registry->get_control('font')->set_settings('options', $misfuentes);
 }
 add_action('elementor/controls/controls_registered', 'add_fonts_modify_controls', 50, 1);
+
+// Función para inyectar colores y fuentes correctas de Jaramar
+function jaramar_inject_custom_colors() {
+	$theme_url = get_template_directory_uri();
+	?>
+	<style id="jaramar-color-override">
+		/* Fuente Gotham - Jaramar Express */
+		@font-face {
+			font-family: 'gotham';
+			src: url('<?php echo $theme_url; ?>/assets/fonts/GothamLight.ttf') format('truetype');
+			font-weight: 300;
+			font-style: normal;
+			font-display: swap;
+		}
+		@font-face {
+			font-family: 'gotham';
+			src: url('<?php echo $theme_url; ?>/assets/fonts/GothamMedium.ttf') format('truetype');
+			font-weight: 400;
+			font-style: normal;
+			font-display: swap;
+		}
+		@font-face {
+			font-family: 'gotham';
+			src: url('<?php echo $theme_url; ?>/assets/fonts/GothamMedium.ttf') format('truetype');
+			font-weight: 500;
+			font-style: normal;
+			font-display: swap;
+		}
+		@font-face {
+			font-family: 'gotham';
+			src: url('<?php echo $theme_url; ?>/assets/fonts/GothamBold.ttf') format('truetype');
+			font-weight: 700;
+			font-style: normal;
+			font-display: swap;
+		}
+
+		/* Colores globales de Jaramar Express */
+		.elementor-kit-6 {
+			--e-global-color-primary: #FF5100 !important;
+			--e-global-color-secondary: #001B71 !important;
+			--e-global-color-text: #323232 !important;
+			--e-global-color-accent: #FFFFFF !important;
+			--e-global-color-96a45ad: #F5F5F5 !important;
+			--e-global-typography-primary-font-family: "gotham" !important;
+			--e-global-typography-primary-font-weight: 700 !important;
+			--e-global-typography-secondary-font-family: "gotham" !important;
+			--e-global-typography-secondary-font-weight: 400 !important;
+			--e-global-typography-text-font-family: "gotham" !important;
+			--e-global-typography-text-font-weight: 400 !important;
+			--e-global-typography-accent-font-family: "gotham" !important;
+			--e-global-typography-accent-font-weight: 500 !important;
+		}
+
+		/* Aplicar fuente Gotham globalmente */
+		body {
+			font-family: 'gotham', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+		}
+
+		/* Fix para menú de navegación - solo header */
+		.elementor-location-header .hfe-nav-menu .hfe-menu-item {
+			color: #FFFFFF !important;
+			text-decoration: none !important;
+			font-family: 'gotham', sans-serif !important;
+			font-weight: 500 !important;
+			font-size: 16px !important;
+			opacity: 1 !important;
+			visibility: visible !important;
+		}
+
+		.elementor-location-header .hfe-nav-menu .hfe-menu-item:hover {
+			color: #FF5100 !important;
+		}
+
+		.elementor-location-header .hfe-nav-menu .current-menu-item .hfe-menu-item {
+			color: #FF5100 !important;
+		}
+
+		/* Asegurar que el menú sea visible */
+		.elementor-location-header .hfe-nav-menu ul {
+			list-style: none !important;
+			opacity: 1 !important;
+			visibility: visible !important;
+		}
+
+		/* Footer - mantener estilos originales */
+		.elementor-location-footer .hfe-nav-menu .hfe-menu-item {
+			opacity: 1 !important;
+			visibility: visible !important;
+		}
+	</style>
+	<?php
+}
+add_action('wp_head', 'jaramar_inject_custom_colors', 999);
